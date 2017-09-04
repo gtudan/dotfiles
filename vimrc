@@ -1,3 +1,5 @@
+execute pathogen#infect()
+
 filetype plugin on
 filetype indent on
 
@@ -17,11 +19,8 @@ set si "Smart indent
 " Color and syntax highlighting
 "
 syntax on
-if $COLORTERM == 'gnome-terminal'
-    set t_Co=256
-endif
-
 set background=dark
+colorscheme solarized8_dark
 set encoding=utf8
 
 "
