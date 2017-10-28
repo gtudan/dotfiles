@@ -1,5 +1,5 @@
 [submodule ".vim/pack/vim-puppet"]
-	path = vim/pack/vim-puppet
+	path = vim/bundle/vim-puppet
 	url = https://github.com/rodjek/vim-puppet.git
 [submodule "dotbot"]
 	path = dotbot
@@ -7,3 +7,6 @@
 [submodule "vim/pack/themes/opt/solarized8"]
 	path = vim/pack/themes/opt/solarized8
 	url = https://github.com/lifepillar/vim-solarized8.git
+[submodule "vim/bundle/vim-colors-solarized"]
+	path = vim/bundle/vim-colors-solarized
+	url = git://github.com/altercation/vim-colors-solarized.git
