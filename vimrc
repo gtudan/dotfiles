@@ -19,13 +19,12 @@ set si "Smart indent
 " Color and syntax highlighting
 "
 syntax on
+colorscheme solarized
 let theme = $ITERM_PROFILE
 if theme == "light"
     set background=light
-    colorscheme solarized
 else
     set background=dark
-    colorscheme solarized
 endif    
 set guifont=Menlo\ Regular:h14
 set encoding=utf8
@@ -38,6 +37,8 @@ set laststatus=2
 "
 " Netrw
 "
-let g:netrw_liststyle=0         " thin (change to 3 for tree)
-let g:netrw_banner=0            " no banner
-let g:netrw_altv=1              " open files on right
+let g:netrw_banner = 0
+let g:netrw_liststyle = 3
+let g:netrw_browse_split = 4
+let g:netrw_altv = 1
+let g:netrw_winsize = 25
